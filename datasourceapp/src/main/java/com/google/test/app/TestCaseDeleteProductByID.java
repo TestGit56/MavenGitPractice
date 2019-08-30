@@ -14,7 +14,7 @@ public class TestCaseDeleteProductByID {
 		boolean flag =	productDAO.deleteProductById(323);
 		if(flag)
 		{
-			System.out.println("Product Deleted SUCESSFULLY");
+			System.out.println("Product Deleted SUCESSFULLY ....");
 			
 		}else
 		{
