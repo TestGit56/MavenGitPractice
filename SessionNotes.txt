@@ -35,4 +35,6 @@ Open Eclipse => Select Work Space
 		package : com.google
 
 		click on finish
+		
+Note :- Add jdbc6.jar explicitly
 
