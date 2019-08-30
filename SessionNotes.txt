@@ -1,0 +1,38 @@
+Download Maven Biner Zip File :
+
+https://maven.apache.org/download.cgi
+
+Unzip into some location.
+
+
+edit the PATH environment variables :
+
+	=>   <location>\apache-maven-3.6.1\bin
+
+Set M2_HOME , MAVEN_HOME
+
+
+M2_HOME   = <location>\apache-maven-3.6.1
+
+MAVEN_HOME = <location>\apache-maven-3.6.1
+
+Verify wheather maven installed successfully or not !
+
+
+Open Command prompt 
+
+	> mvn -version
+
+
+=>
+
+Create a MAven Project :
+Open Eclipse => Select Work Space 
+	     => Create Maven Project
+	     => choose maven - archtype - quick start
+	     => group id : com.google
+		artifactid : demoapp
+		package : com.google
+
+		click on finish
+
